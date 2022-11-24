@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #side_bar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: rgb(32, 80, 124);
+    left: -200px;
+    transition: all 500ms linear;
+  }
+  
+  #side_bar.active {
+    left: 0px;
+  }
+  
+  #side_bar ul li {
+    font-family: sans-serif;
+    color: rgb(197, 197, 197);
+    font-size: 30px;
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 4px solid rgb(143, 143, 143);
+    text-align: center;
+
+  }
+    
+  #side_bar .btn {
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    cursor: pointer;
+  }
+  
+  #side_bar .btn span {
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid rgb(133, 160, 185);
+    display: block;
+    width: 40px;
+  }
